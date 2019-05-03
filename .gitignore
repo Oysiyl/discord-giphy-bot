@@ -1,0 +1,8 @@
+*.pyc
+.DS_Store
+.env
+bot.py
+bot2.py
+bot3.py
+giphy.py
+

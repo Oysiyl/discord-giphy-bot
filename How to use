@@ -1,0 +1,5 @@
+https://discordapp.com/oauth2/authorize?client_id=client_app_id&scope=bot&permissions=1
+python3 -m pip install --user -U discord.py
+pip3 install --user giphy_client
+
+
