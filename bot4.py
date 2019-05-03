@@ -16,7 +16,7 @@ api_instance = giphy_client.DefaultApi()
 def search_gifs(query):
     try:
         return api_instance.gifs_search_get(giphy_token, query,
-                                            limit=5, rating='g')
+                                            limit=5, rating='r')
 
     except ApiException as e:
         return "Exception when calling DefaultApi->gifs_search_get: %s\n" % e

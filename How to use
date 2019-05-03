@@ -2,4 +2,7 @@ https://discordapp.com/oauth2/authorize?client_id=client_app_id&scope=bot&permis
 python3 -m pip install --user -U discord.py
 pip3 install --user giphy_client
 
-
+heroku ps -a discord-giphy-bot
+heroku ps:scale -a discord-giphy-bot worker=1
+heroku open -a discord-giphy-bot
+heroku logs --tail -a discord-giphy-bot
